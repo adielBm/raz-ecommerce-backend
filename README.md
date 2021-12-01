@@ -9,7 +9,7 @@ npm install
 ```
 
 ## Start
-Running it, will run the Strapi server, here  [http://localhost:1337](http://localhosdfdt:1337).
+Running it, will run the Strapi server, here http://localhost:1337.
 ```sh
 npm run develop
 ```
