@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_order_items",
+  "info": {
+    "displayName": "items",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "count": {
+      "type": "integer",
+      "min": 1
+    }
+  }
+}
