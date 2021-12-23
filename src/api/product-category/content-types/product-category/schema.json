@@ -24,7 +24,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product.product",
-      "inversedBy": "product_categories"
+      "mappedBy": "product_categories"
     }
   }
 }
