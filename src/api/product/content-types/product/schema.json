@@ -33,16 +33,16 @@
         "images"
       ]
     },
-    "slug": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "product_categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product-category.product-category",
       "inversedBy": "products"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }
