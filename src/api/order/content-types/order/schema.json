@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -37,6 +37,22 @@
       "type": "component",
       "repeatable": true,
       "component": "order.items"
+    },
+    "delivery": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::delivery.delivery"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "completed"
+      ],
+      "default": "pending"
+    },
+    "code": {
+      "type": "string"
     }
   }
 }

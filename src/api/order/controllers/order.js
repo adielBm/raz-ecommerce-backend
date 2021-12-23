@@ -19,5 +19,15 @@ module.exports = createCoreController('api::order.order', ({strapi}) => ({
     //meta.date = Date.now()
 
     return { data, meta };
+  },
+  async update(ctx) {
+    console.log('ctx💛', ctx)
+    // some logic here
+    const response = await super.update(ctx);
+    // some more logic
+    console.log('response💙', response)
+
+    return response;
   }
+  
 }));
