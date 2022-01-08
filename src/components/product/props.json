@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_product_props",
+  "info": {
+    "displayName": "props",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "values": {
+      "displayName": "custom values",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.custom-values"
+    }
+  }
+}

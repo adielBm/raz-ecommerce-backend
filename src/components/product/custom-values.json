@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_custom_values",
+  "info": {
+    "displayName": "custom values",
+    "icon": "car-battery"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}
