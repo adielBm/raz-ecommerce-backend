@@ -43,6 +43,25 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "prop": {
+      "displayName": "props",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.props"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
     }
   }
 }
