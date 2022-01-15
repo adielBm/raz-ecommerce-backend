@@ -114,3 +114,4 @@ build
 .strapi-updater.json
 
 package-lock.json
+.vscode/settings.json
